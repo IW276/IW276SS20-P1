@@ -39,12 +39,14 @@ Pre-trained model is available at pretrained-models/
 
 ## Running
 
-To run the demo, convert the MPII Dataset to csv via MATConverter.py, download the Youtube videos via YoutubeDownloader.py and then extract skeleton keypoints via OpenPose.
-Afterwards, you can run json_to_video.py:
-```
-python src/demo.py --model model/student-jetson-model.pth --video 0
-```
+To run the demo, convert the MPII Dataset to csv via MATConverter.py, download the Youtube videos via YoutubeDownloader.py and then extract skeleton keypoints via OpenPose and getJson.py.
+Afterwards, you can run json_to_video.py to paint scelettons on video.
+
 > Make sure the .py files are using correct paths.
+
+
+**trt-pose**
+With detect_image.py show pose on images and with detect_video show pose on video.
 
 ## Acknowledgments
 
