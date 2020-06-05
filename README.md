@@ -51,7 +51,9 @@ pip install -r requirements.txt
 
 To run the demo,<br />
 **openpose**<br />
-convert the MPII Dataset to csv via MATConverter.py, download the Youtube videos via YoutubeDownloader.py and then extract skeleton keypoints via OpenPose and getJson.py.
+convert the MPII Dataset to csv via MATConverter.py,
+<br />download the Youtube videos via YoutubeDownloader.py
+<br />and then extract skeleton keypoints via OpenPose and getJson.py.
 
 Afterwards, you can run json_to_video.py to paint scelettons on video.
 
