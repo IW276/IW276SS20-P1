@@ -12,7 +12,8 @@ Below you'll find a video demonstrating the two ways. <br />
 <br />
 
 **Result image from openpose** <br />
-![result from trt_pose](/images/1.PNG)
+![result from trt_pose](/images/1.PNG)<br />
+<br />
 **Result image from trt_pose** <br />
 ![result from openpose](/images/trt_image.jpeg)
 
