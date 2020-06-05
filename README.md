@@ -10,7 +10,7 @@ Below you'll find a video demonstrating the two ways.
   Link to Demo Video
 </p>
 
-> This work was done by Autor 1, Autor2, Autor 3 and M. Bielawski during the IWI276 Autonome Systeme Labor at the Karlsruhe University of Applied Sciences (Hochschule Karlruhe - Technik und Wirtschaft) in SS 2020.
+> This work was done by Jingye Zhang, Janika Finken, Ga Young Volk and M. Bielawski during the IWI276 Autonome Systeme Labor at the Karlsruhe University of Applied Sciences (Hochschule Karlruhe - Technik und Wirtschaft) in SS 2020.
 
 ## Table of Contents
 
