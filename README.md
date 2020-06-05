@@ -18,9 +18,9 @@ Below you'll find a video demonstrating the two ways. <br />
 ![result from openpose](/images/trt_image.jpeg)
 
 
-<p align="center">
-  [Link to Demo Video](https://drive.google.com/file/d/1a5cqzl2s8_Py-INFd8q44rwgZCjbI58X/view?usp=sharing)
-</p>
+
+*[Link to Demo Video]*(https://drive.google.com/file/d/1a5cqzl2s8_Py-INFd8q44rwgZCjbI58X/view?usp=sharing)
+
 
 > This work was done by Jingye Zhang, Janika Finken, Ga Young Volk and M. Bielawski during the IWI276 Autonome Systeme Labor at the Karlsruhe University of Applied Sciences (Hochschule Karlruhe - Technik und Wirtschaft) in SS 2020.
 
