@@ -1,5 +1,8 @@
 #W276 Autonome Systeme Labor Group 1
 
+In diesem Projekt werden zwei verschiedenen Möglichkeiten zur Darstellung von Skeletten/Posen auf einem Video verglichen. Die erste Variante beinhaltet mithilfe von Openpose Skeleton Keypoints eines Videos in Form von Json-Dateien zu extrahieren und dann zur Laufzeit über das entsprechend Video zu legen. In der zweiten Variante wird trt_pose verwendet. Zunächst wir von trt_pose eine JSON-Datei geladen, die die Human Pose beschreibt und anschlißend werden trt_pose Model und Modelgewicht geladen. Um das Model zu optimiren wird torch2trt verwendet. Nach dem Benchmarking des Models in FPS wurden zwei Klassen definiert, die zum Parsen der Objekte dem neuronalen Netzwer sowie zum Zeichnen der analysierten Objekte auf einem Bild verwendet werden. Bei der Definition der Hauptausführungsschleife wurden folgende Schrittte durchgeführt. 
+
+English description:
 In this project we were tasked with comparing the performance of two different ways of overlaying/recognizing skeletons in a video.
 One way was to extract the skeleton keypoints to a json file via OpenPose which were then overlayed on the video at runtime.
 The other way was to use trt_pose ...
@@ -10,7 +13,7 @@ Below you'll find a video demonstrating the two ways.
   Link to Demo Video
 </p>
 
-> This work was done by Autor 1, Autor2, Autor 3 and M. Bielawski during the IWI276 Autonome Systeme Labor at the Karlsruhe University of Applied Sciences (Hochschule Karlruhe - Technik und Wirtschaft) in SS 2020. 
+> This work was done by Jingye Zhang, Gayoung , Janika Finken and M. Bielawski during the IWI276 Autonome Systeme Labor at the Karlsruhe University of Applied Sciences (Hochschule Karlruhe - Technik und Wirtschaft) in SS 2020. 
 
 ## Table of Contents
 
