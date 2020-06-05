@@ -10,7 +10,7 @@ One way was to extract the skeleton keypoints to a json file via OpenPose which 
 The other way was to use trt_pose ...
 Below you'll find a video demonstrating the two ways.
 <br />
-![result from trt_pose](/images/1.png)
+![result from trt_pose](/images/1.PNG)
 ![result from openpose](https://drive.google.com/file/d/1aSrWnLoAZSCigCF0mt3244Zyzq5L6c74/view?usp=sharing?raw=true)
 
 
