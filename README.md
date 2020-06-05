@@ -1,13 +1,16 @@
-# Project-Template for IW276 Autonome Systeme Labor
+#W276 Autonome Systeme Labor Group 1
 
-Short introduction to project assigment.
+In this project we were tasked with comparing the performance of two different ways of overlaying/recognizing skeletons in a video.
+One way was to extract the skeleton keypoints to a json file via OpenPose which were then overlayed on the video at runtime.
+The other way was to use trt_pose ...
+Below you'll find a video demonstrating the two ways.
 
 <p align="center">
   Screenshot / GIF <br />
   Link to Demo Video
 </p>
 
-> This work was done by Autor 1, Autor2, Autor 3 during the IWI276 Autonome Systeme Labor at the Karlsruhe University of Applied Sciences (Hochschule Karlruhe - Technik und Wirtschaft) in SS 2020. 
+> This work was done by Autor 1, Autor2, Autor 3 and M. Bielawski during the IWI276 Autonome Systeme Labor at the Karlsruhe University of Applied Sciences (Hochschule Karlruhe - Technik und Wirtschaft) in SS 2020. 
 
 ## Table of Contents
 
@@ -36,17 +39,19 @@ Pre-trained model is available at pretrained-models/
 
 ## Running
 
-To run the demo, pass path to the pre-trained checkpoint and camera id (or path to video file):
+To run the demo, convert the MPII Dataset to csv via MATConverter.py, download the Youtube videos via YoutubeDownloader.py and then extract skeleton keypoints via OpenPose.
+Afterwards, you can run json_to_video.py:
 ```
 python src/demo.py --model model/student-jetson-model.pth --video 0
 ```
-> Additional comment about the demo.
+> Make sure the .py files are using correct paths.
 
 ## Acknowledgments
 
 This repo is based on
-  - [Source 1](https://github.com/)
-  - [Source 2](https://github.com/)
+  - [MPII Dataset](http://human-pose.mpi-inf.mpg.de/)
+  - [OpenCV](https://github.com/opencv/opencv/)  
+  - [OpenPose](https://github.com/CMU-Perceptual-Computing-Lab/openpose)
 
 Thanks to the original authors for their work!
 
