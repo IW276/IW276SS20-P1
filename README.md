@@ -16,7 +16,6 @@ Below you'll find a video demonstrating the two ways.
 
 * [Requirements](#requirements)
 * [Prerequisites](#prerequisites)
-* [Pre-trained model](#pre-trained-model)
 * [Running](#running)
 * [Acknowledgments](#acknowledgments)
 
