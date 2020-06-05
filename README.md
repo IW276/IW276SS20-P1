@@ -10,8 +10,8 @@ One way was to extract the skeleton keypoints to a json file via OpenPose which 
 The other way was to use trt_pose ...
 Below you'll find a video demonstrating the two ways.
 <br />
-<img align="right" width="100" height="100" src="https://drive.google.com/file/d/1HwsOk-iN1of1K7j0R1aBH1WlLUASzYY1/view?usp=sharing">
-<img align="left" width="100" height="100" src="https://drive.google.com/file/d/1aSrWnLoAZSCigCF0mt3244Zyzq5L6c74/view?usp=sharing"><br />
+![result from trt_pose](https://drive.google.com/file/d/1HwsOk-iN1of1K7j0R1aBH1WlLUASzYY1/view?usp=sharing?raw=true)
+![result from openpose](https://drive.google.com/file/d/1aSrWnLoAZSCigCF0mt3244Zyzq5L6c74/view?usp=sharing?raw=true)
 
 
 <p align="center">
