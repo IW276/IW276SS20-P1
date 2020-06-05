@@ -4,14 +4,14 @@ In diesem Projekt werden zwei verschiedenen Möglichkeiten zur Darstellung von S
 
 
 
-English description:
+English description: <br />
 In this project we were tasked with comparing the performance of two different ways of overlaying/recognizing skeletons in a video.
 One way was to extract the skeleton keypoints to a json file via OpenPose which were then overlayed on the video at runtime.
 The other way was to use trt_pose ...
 Below you'll find a video demonstrating the two ways.
-
+<br />
 <img align="right" width="100" height="100" src="https://drive.google.com/file/d/1HwsOk-iN1of1K7j0R1aBH1WlLUASzYY1/view?usp=sharing">
-<img align="left" width="100" height="100" src="https://drive.google.com/file/d/1aSrWnLoAZSCigCF0mt3244Zyzq5L6c74/view?usp=sharing">
+<img align="left" width="100" height="100" src="https://drive.google.com/file/d/1aSrWnLoAZSCigCF0mt3244Zyzq5L6c74/view?usp=sharing"><br />
 
 
 <p align="center">
