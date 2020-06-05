@@ -1,12 +1,21 @@
 #W276 Autonome Systeme Labor Group 1
 
+In diesem Projekt werden zwei verschiedenen Möglichkeiten zur Darstellung von Skeletten/Posen auf einem Video verglichen. Die erste Variante beinhaltet mithilfe von Openpose Skeleton Keypoints eines Videos in Form von Json-Dateien zu extrahieren und dann zur Laufzeit über das entsprechend Video zu legen. In der zweiten Variante wird trt_pose verwendet. Zunächst wir von trt_pose eine JSON-Datei geladen, die die Human Pose beschreibt und anschlißend werden trt_pose Model und Modelgewicht geladen. Um das Model zu optimiren wird torch2trt verwendet. Nach dem Benchmarking des Models in FPS wurden zwei Klassen definiert, die zum Parsen der Objekte dem neuronalen Netzwer sowie zum Zeichnen der analysierten Objekte auf einem Bild verwendet werden. Bei der Definition der Hauptausführungsschleife wurden folgende Schrittte durchgeführt.
+
+
+
+English description:
 In this project we were tasked with comparing the performance of two different ways of overlaying/recognizing skeletons in a video.
 One way was to extract the skeleton keypoints to a json file via OpenPose which were then overlayed on the video at runtime.
 The other way was to use trt_pose ...
 Below you'll find a video demonstrating the two ways.
 
+<img align="right" width="100" height="100" src="https://drive.google.com/file/d/1HwsOk-iN1of1K7j0R1aBH1WlLUASzYY1/view?usp=sharing">
+<img align="left" width="100" height="100" src="https://drive.google.com/file/d/1aSrWnLoAZSCigCF0mt3244Zyzq5L6c74/view?usp=sharing">
+
+
 <p align="center">
-  Screenshot / GIF <br />
+  Right <br />
   Link to Demo Video
 </p>
 
@@ -37,11 +46,15 @@ pip install -r requirements.txt
 
 ## Running
 
-To run the demo, convert the MPII Dataset to csv via MATConverter.py, download the Youtube videos via YoutubeDownloader.py and then extract skeleton keypoints via OpenPose.
-Afterwards, you can run json_to_video.py:
-```
-python src/demo.py --model model/student-jetson-model.pth --video 0
-```
+To run the demo, convert the MPII Dataset to csv via MATConverter.py, download the Youtube videos via YoutubeDownloader.py and then extract skeleton keypoints via OpenPose and getJson.py.
+
+Afterwards, you can run json_to_video.py to paint scelettons on video.
+
+**trt-pose**
+
+With detect_image.py show pose on images and with detect_video show pose on video.
+
+
 > Make sure the .py files are using correct paths.
 
 ## Acknowledgments
