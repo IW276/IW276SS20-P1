@@ -11,9 +11,9 @@ The other way was to use trt_pose ...
 Below you'll find a video demonstrating the two ways. <br />
 <br />
 
-**bold** Result image from openpose <br />
+**Result image from openpose** <br />
 ![result from trt_pose](/images/1.PNG)
-**bold** Result image from trt_pose <br />
+**Result image from trt_pose** <br />
 ![result from openpose](/images/trt_image.jpeg)
 
 
