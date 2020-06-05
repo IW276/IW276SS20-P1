@@ -8,11 +8,12 @@ English description: <br />
 In this project we were tasked with comparing the performance of two different ways of overlaying/recognizing skeletons in a video.
 One way was to extract the skeleton keypoints to a json file via OpenPose which were then overlayed on the video at runtime.
 The other way was to use trt_pose ...
-Below you'll find a video demonstrating the two ways.
-&nbsp;
-Result image from openpose <br />
+Below you'll find a video demonstrating the two ways. <br />
+<br />
+
+**bold** Result image from openpose <br />
 ![result from trt_pose](/images/1.PNG)
-Result image from trt_pose <br />
+**bold** Result image from trt_pose <br />
 ![result from openpose](/images/trt_image.jpeg)
 
 
