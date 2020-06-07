@@ -52,14 +52,43 @@ pip install -r requirements.txt
 To run the demo,<br />
 **openpose**<br />
 convert the MPII Dataset to csv via MATConverter.py,
+```
+python MATConverter.py
+```
 <br />download the Youtube videos via YoutubeDownloader.py
+```
+python YoutubeDownloader.py
+```
 <br />and then extract skeleton keypoints via OpenPose and getJson.py.
+```
+python getJson.py
+```
+
 <br />Afterwards, you can run json_to_video.py to paint scelettons on video.
+```
+python json_to_video.py
+```
 
 **trt-pose**
 
-With detect_image.py show pose on images and with detect_video.py show pose on video.
+With detect_image.py show pose on images and with detect_video.py show pose on video.<br />
 
+Argumente:<br />
+--video Videoname (default=video.avi)<br />
+--model Modeltyp (resnet oder densenet. default=resnet)<br />
+--path Pfad (default=/home/p1/Downloads/)<br />
+
+Usage Bsp: <br />
+For Resnet <br />
+```
+pip3 detect_video --path /your/path/ --video video.mp4
+```
+For densenet <br />
+```
+pip3 detect_video --path /your/path/ --video video.mp4 --model densenet
+```
+Default: Output Video with skeleton<br />
+If you want to get output with keypoints, then should enable the line 120-128 and disable the line 130.
 
 > Make sure the .py files are using correct paths.
 
