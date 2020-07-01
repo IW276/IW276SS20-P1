@@ -1,4 +1,5 @@
-#W276 Autonome Systeme Labor Group 1
+# IW276SS20P1: Activity Recognition in Real-Time (Jetson Nano)
+
 
 In diesem Projekt werden zwei verschiedenen Möglichkeiten zur Darstellung von Skeletten/Posen auf einem Video verglichen. Die erste Variante beinhaltet mithilfe von Openpose Skeleton Keypoints eines Videos in Form von Json-Dateien zu extrahieren und dann zur Laufzeit über das entsprechend Video zu legen. In der zweiten Variante wird trt_pose verwendet. Zunächst wir von trt_pose eine JSON-Datei geladen, die die Human Pose beschreibt und anschlißend werden trt_pose Model und Modelgewicht geladen. Um das Model zu optimiren wird torch2trt verwendet. Nach dem Benchmarking des Models in FPS wurden zwei Klassen definiert, die zum Parsen der Objekte dem neuronalen Netzwer sowie zum Zeichnen der analysierten Objekte auf einem Bild verwendet werden. Bei der Definition der Hauptausführungsschleife wurden folgende Schrittte durchgeführt.
 
@@ -19,7 +20,7 @@ Below you'll find a video demonstrating the two ways. <br />
 
 
 
-  [Link to Demo Video](https://drive.google.com/file/d/1a5cqzl2s8_Py-INFd8q44rwgZCjbI58X/view?usp=sharing)
+  [Link to Demo Video](https://youtu.be/xZj7YrHmFSA)
 
 
 > This work was done by Jingye Zhang, Janika Finken, Ga Young Volk and M. Bielawski during the IW276 Autonome Systeme Labor at the Karlsruhe University of Applied Sciences (Hochschule Karlruhe - Technik und Wirtschaft) in SS 2020.
@@ -39,7 +40,6 @@ Below you'll find a video demonstrating the two ways. <br />
 * [trt_pose](https://github.com/NVIDIA-AI-IOT/trt_pose)
 * [PyTorch](https://pytorch.org)
 * [torchvision](https://pypi.org/project/torchvision/0.1.8)
-> [Optional] ...
 
 ## Prerequisites
 1. Install requirements:
